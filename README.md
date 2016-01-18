@@ -12,7 +12,6 @@ npm start
 ### Message JSON format
 ```javascript
 {
-    username: 'xyz',
     message: 'Hello World!',
     timestamp: new Date()
 }

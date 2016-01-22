@@ -2,7 +2,11 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+
     <title>ChatApp!</title>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="node_modules/angular2/bundles/angular2-polyfills.js"></script>
     <script src="node_modules/systemjs/dist/system.src.js"></script>
     <script src="node_modules/rxjs/bundles/Rx.js"></script>
@@ -17,9 +21,13 @@
 </head>
 <body>
 <my-app>Loading...</my-app>
-<h1>Hello World!</h1>
-We are using node <script>document.write(process.versions.node)</script>,
-Chrome <script>document.write(process.versions.chrome)</script>,
-and Electron <script>document.write(process.versions.electron)</script>.
+<div class="container-fluid">
+    <div class="jumbotron">
+        <h1>Hello World!</h1>
+        We are using node <script>document.write(process.versions.node)</script>,
+        Chrome <script>document.write(process.versions.chrome)</script>,
+        and Electron <script>document.write(process.versions.electron)</script>.
+    </div>
+</div>
 </body>
 </html>
